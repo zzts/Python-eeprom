@@ -1,6 +1,9 @@
 # Python-eeprom
 Python wrapper for smbus/i2c library to read m24c32,64 and m24128 eeproms
 
+Written by Khill NX7H
+July 4,2016
+
 Requires smbus and RPi.GPIO
 
 If you are accessing the eeprom on a Hat, they are usually accessed on i2c-0 for RPi 2 and 3s.  You must add dtparam=i2c_vc to the
